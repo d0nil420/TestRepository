@@ -1,0 +1,68 @@
+
+
+.svg-animation-container {
+    width: 614px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 24;
+    margin: 0 auto;
+    border-radius: 0%;
+    height: 382px;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+#Polygon2 {
+    animation: changeColor 3s infinite alternate;
+}
+
+#poloski {
+    animation: bounce infinite; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+}
+/*
+animate.style
+*/
+
+/*
+#Rectangle296{
+    animation: bounce infinite; 
+    animation-duration: 1s;
+}
+#Rectangle297{
+    animation: bounce infinite; 
+    animation-duration: 2s;
+}
+#Rectangle298{
+    animation: bounce infinite; 
+    animation-duration: 3s;
+}
+*/
+
+
+
+#n-bukva {
+    animation: move 6s infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        fill: pink;
+    }
+    33% {
+        fill: rgb(187, 226, 129);
+    }
+    66% {
+        fill: rgb(252, 252, 145);
+    }
+    100% {
+        fill: rgb(187, 226, 129);
+    }
+}
+
+
+@keyframes move {
+    20%, 100% {
+      opacity: 0;
+      transform: translate(-90px, 0);
+    {
+}
