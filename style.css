@@ -66,3 +66,7 @@ animate.style
       transform: translate(-90px, 0);
     {
 }
+
+h1 {
+    color: blue;
+}
